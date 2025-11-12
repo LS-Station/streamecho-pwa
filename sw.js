@@ -1,8 +1,8 @@
 const CACHE_NAME = 'streamecho-v1';
 const urlsToCache = [
   '/',
-  '/streamecho-pwa/icon-192.png',
-  '/streamecho-pwa/icon-512.png'
+  '/icon-192.png',
+  '/icon-512.png'
 ];
 
 self.addEventListener('install', event => {
